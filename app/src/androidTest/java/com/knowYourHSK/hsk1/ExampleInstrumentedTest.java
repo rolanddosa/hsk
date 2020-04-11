@@ -1,4 +1,4 @@
-package com.example.hsk;
+package com.knowYourHSK.hsk1;
 
 import android.content.Context;
 
