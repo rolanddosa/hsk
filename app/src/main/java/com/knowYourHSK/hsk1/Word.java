@@ -9,6 +9,9 @@ public class Word implements Serializable {
         this.meaning = meaning;
     }
 
+    public Word() {
+    }
+
     private String label;
     private String pinyin;
     private String meaning;
@@ -23,5 +26,19 @@ public class Word implements Serializable {
 
     public String getMeaning() {
         return meaning;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Word) {
+            return ((Word) obj).pinyin.equals(this.pinyin);
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        int prime = 31;
+        return prime + (pinyin == null ? 0 : pinyin.hashCode());
     }
 }

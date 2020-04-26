@@ -23,11 +23,15 @@ public class WordsGenerator {
     }
 
     public List getRandomWords(int numberOfWords) {
-        Random random = new Random();
-        List<Word> hsk1Words = getAllHSK1Words();
         List randomWords = new ArrayList<Word>();
-        for (int i = 0; i < numberOfWords; i++) {
-            randomWords.add(hsk1Words.get(random.nextInt(hsk1Words.size())));
+        List<Word> hsk1Words = getAllHSK1Words();
+        Word randomWord;
+        Random random = new Random();
+        while (randomWords.size() != numberOfWords) {
+            randomWord = hsk1Words.get(random.nextInt(hsk1Words.size()));
+            if (!randomWords.contains(randomWord)) {
+                randomWords.add(randomWord);
+            }
         }
         return randomWords;
     }
