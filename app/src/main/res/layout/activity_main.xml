@@ -4,47 +4,127 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".hsk1.MainActivity"
+    android:background="@drawable/chinese_background"
+    >
 
-    <Button
-        android:id="@+id/button7"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginTop="20dp"
-        android:text="Funny phrases and silly words (upcoming)"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="@string/let_s_learn_the_hsk1_foundation_first_n_select_your_level"
+        android:textColor="#FFF29D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:layout_constraintVertical_bias="0.159" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/guitarcatgif"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:onClick="newStudentActivity"
+        android:src="@drawable/guitarcat"
+        app:layout_constraintEnd_toStartOf="@+id/laoshimaogif"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toEndOf="@+id/babydrumscatgif"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/laoshimaogif"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="newTeacherActivity"
+        android:src="@drawable/laoshimao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/babydrumscatgif"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="newBabyActivity"
+        android:src="@drawable/drumscat"
+        app:layout_constraintEnd_toStartOf="@+id/laoshimaogif"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="30dp"
         android:text="Know your 汉语水平考试(Hànyǔ Shuǐpíng Kǎoshì) now"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        android:textColor="#FFEB65"
         app:layout_constraintHorizontal_bias="0.577"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="20dp"
-        android:onClick="onLoginClick"
-        android:text="Let's learn the HSK1 foundation first"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:background="#D393DF"
+        android:onClick="newBabyActivity"
+        android:text="宝宝"
+        android:textColor="#FFED43"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:background="#830000"
+        android:onClick="newTeacherActivity"
+        android:text="学生"
+        android:textColor="#FFED43"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#19329A"
+        android:onClick="newStudentActivity"
+        android:text="老师"
+        android:textColor="#FFED43"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Funny phrases upcoming, prepare by practicing HSK1 well!"
+        android:textColor="#FFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

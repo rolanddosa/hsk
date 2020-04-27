@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode">
-        <activity android:name=".hsk1.Home"></activity>
+        <activity android:name=".hsk1.BabyActivity" />
+        <activity android:name=".hsk1.StudentActivity" />
+        <activity android:name=".hsk1.TeacherActivity" />
         <activity android:name=".hsk1.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

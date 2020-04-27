@@ -23,14 +23,31 @@ public class MainActivity extends AppCompatActivity {
         List words = csvFile.read();
     }
 
-    /**
-     * Called when the user taps the Send button
-     */
-    public void onLoginClick(View view) {
-        Intent intent = new Intent(this, Home.class);
+    public void newBabyActivity(View view) {
+        Intent intent = new Intent(this, BabyActivity.class);
 
         WordsGenerator wordsGenerator = new WordsGenerator(getApplicationContext());
         List randomWords = wordsGenerator.getRandomWords(3);
+
+        intent.putExtra("RANDOMWORDS", (Serializable) randomWords);
+        startActivity(intent);
+    }
+
+    public void newStudentActivity(View view) {
+        Intent intent = new Intent(this, StudentActivity.class);
+
+        WordsGenerator wordsGenerator = new WordsGenerator(getApplicationContext());
+        List randomWords = wordsGenerator.getRandomWords(3);
+
+        intent.putExtra("RANDOMWORDS", (Serializable) randomWords);
+        startActivity(intent);
+    }
+
+    public void newTeacherActivity(View view) {
+        Intent intent = new Intent(this, TeacherActivity.class);
+
+        WordsGenerator wordsGenerator = new WordsGenerator(getApplicationContext());
+        List<Word> randomWords = wordsGenerator.getRandomWords(1);
 
         intent.putExtra("RANDOMWORDS", (Serializable) randomWords);
         startActivity(intent);
