@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.knowYourHSK.R;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -47,6 +48,7 @@ public class StudentActivity extends AppCompatActivity {
         option1.setText(randomWords.get(0).getMeaning());
         option2.setText(randomWords.get(1).getMeaning());
         option3.setText(randomWords.get(2).getMeaning());
+        Collections.shuffle(randomWords);
         pinyinButton1.setText(randomWords.get(0).getPinyin());
         pinyinButton3.setText(randomWords.get(2).getPinyin());
         pinyinButton2.setText(randomWords.get(1).getPinyin());
@@ -144,6 +146,7 @@ public class StudentActivity extends AppCompatActivity {
         option1.setText(randomWords.get(0).getMeaning());
         option2.setText(randomWords.get(1).getMeaning());
         option3.setText(randomWords.get(2).getMeaning());
+        Collections.shuffle(randomWords);
         pinyinButton1.setText(randomWords.get(0).getPinyin());
         pinyinButton3.setText(randomWords.get(2).getPinyin());
         pinyinButton2.setText(randomWords.get(1).getPinyin());

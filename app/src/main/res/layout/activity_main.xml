@@ -15,6 +15,7 @@
         android:layout_marginTop="280dp"
         android:text="@string/let_s_learn_the_hsk1_foundation_first_n_select_your_level"
         android:textColor="#FFF29D"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

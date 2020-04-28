@@ -22,8 +22,9 @@ public class TeacherActivity extends AppCompatActivity {
     private Word answer;
     EditText solutionField;
     int streakCount;
-//    int highestStreak;
+    int highestStreak;
     TextView streakTextView;
+    TextView highestStreakTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,8 +41,10 @@ public class TeacherActivity extends AppCompatActivity {
         if(savedInstanceState != null) {
             updateStreakTextView(savedInstanceState.getInt("streakCount"));
         }
-        streakTextView = (TextView) findViewById(R.id.studentStreak);
+        streakTextView = (TextView) findViewById(R.id.teacherStreak);
         streakTextView.setText("Streak: " + streakCount);
+        highestStreakTextView = (TextView) findViewById(R.id.highestTeacherStreak);
+        highestStreakTextView.setText("Highest: " + highestStreak);
     }
 
 //    @Override
@@ -68,7 +71,7 @@ public class TeacherActivity extends AppCompatActivity {
         super.onPause();
         SharedPreferences sharedPreferences = getSharedPreferences("sharedPreferencesTeacherActivity", 0);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putInt("sharedPreferenceCounter", streakCount);
+        editor.putInt("highestStreak", highestStreak);
         editor.commit();
     }
 
@@ -77,9 +80,9 @@ public class TeacherActivity extends AppCompatActivity {
         super.onResume();
         getIntent().getExtras();
         SharedPreferences sharedPreferences = getSharedPreferences("sharedPreferencesTeacherActivity", 0);
-        streakCount = sharedPreferences.getInt("sharedPreferenceCounter", 0);
-        streakTextView = (TextView) findViewById(R.id.studentStreak);
-        streakTextView.setText("Streak: " + streakCount);
+        highestStreak = sharedPreferences.getInt("highestStreak", 0);
+        highestStreakTextView = (TextView) findViewById(R.id.highestTeacherStreak);
+        highestStreakTextView.setText("Streak: " + highestStreak);
     }
 
     public void checkSolution(View v) {
@@ -99,7 +102,12 @@ public class TeacherActivity extends AppCompatActivity {
 
     private void updateStreakTextView(int count) {
         streakCount = count;
-        streakTextView = (TextView) findViewById(R.id.studentStreak);
+        if (count > highestStreak) {
+            highestStreak = count;
+        }
+        streakTextView = (TextView) findViewById(R.id.teacherStreak);
         streakTextView.setText("Streak: " + streakCount);
+        highestStreakTextView = (TextView) findViewById(R.id.highestTeacherStreak);
+        highestStreakTextView.setText("Highest: " + highestStreak);
     }
 }
