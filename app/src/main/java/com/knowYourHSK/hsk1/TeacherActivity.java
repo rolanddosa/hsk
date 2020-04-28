@@ -82,7 +82,7 @@ public class TeacherActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("sharedPreferencesTeacherActivity", 0);
         highestStreak = sharedPreferences.getInt("highestStreak", 0);
         highestStreakTextView = (TextView) findViewById(R.id.highestTeacherStreak);
-        highestStreakTextView.setText("Streak: " + highestStreak);
+        highestStreakTextView.setText("Highest: " + highestStreak);
     }
 
     public void checkSolution(View v) {
