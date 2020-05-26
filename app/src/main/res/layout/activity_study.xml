@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我,wǒ,I, me\n我们,wǒmen,we, us (pl.)\n你,nǐ,you\n你们,nǐmen,you (pl.)\n他,tā,he, him\n她,tā,she, her\n他们,tāmen,they (male+female / male, pl.)\n她们,tāmen,they\n(females, pl.)\n这 (这儿),zhè ( zhèr),here, this\n那 (那儿),nà (nàr),there, that\n哪（哪儿）,nǎ (nǎr),where\n谁,shuí,who\n什么,shén me,what, why\n多少,duōshǎo,how many, how much\n几,jǐ,a few, how many\n怎么,zěnme,how\n怎么样,zěnmeyàng,how about\n一,yī,one\n二,èr,two\n三,sān,three\n四,sì,four\n五,wǔ,five\n六,liù,six\n七,qī,seven\n八,bā,eight\n九,jiǔ,nine\n十,shí,ten\n零,líng,zero\n个,gè,one, a, an\n岁,suì,year\n本,běn,volume\n些,xiē,some\n块,kuài,piece\n不,bù,no\n没,méi,no\n很,hěn,quite, very\n太,tài,too\n都,dōu,all\n和,hé,and\n在,zài,in, at\n的,de,of;\nstructural particle: used before a noun, linking it to preceding possessive or descriptive attributive\n了,le,(completed action marker); (modal\nparticle intensifying preceding clause)\n吗,ma,(question tag)\n呢,ne,(question particle for subjects already mentioned)\n喂,wèi,hello\n家,jiā,home\n学校,xuéxiào,school\n饭店,fàndiàn,restaurant\n商店,shāngdiàn,store\n医院,yīyuàn,hospital\n火车站,huǒchēzhàn,train station\n中国,zhōng guó,China\n北京,běijīng,Beijing\n上,shàng,up\n下,xià,down\n前面,qiánmiàn,front\n后面,hòumiàn,behind\n里,lǐmiàn,inside\n今天,jīntiān,today\n明天,míngtiān,tomorrow\n昨天,\nuótiān,yesterday\n上午,shàngwǔ,morning\n中午,zhōngwǔ,noon\n下午,xiàwǔ,afternoon\n年,nián,year\n月,yuè,month\n日,rì,day\n星期,xīngqī,week\n点,diǎn,dot, spot\n分钟,fēnzhōng,minute\n现在,xiànzài,now\n时候,shíhou,time\n爸爸,bàba,father\n妈妈,māma,mother\n儿子,érzi,son\n女儿,nǚér,daughter\n老师,lǎoshī,teacher\n学生,xuéshēng\nstudent\n同学,tóngxué,shoolmate\n朋友,péngyou,friend\n医生,yīshēng,doctor\n先生,xiānsheng,sir\n小姐,xiǎojiě,Miss\n衣服,yīfu,cloth\n水,shuǐ,water\n菜,cài,vegetable\n米饭\nmǐfàn,rice\n水果,shuǐguǒ,fruit\n苹果,píngguǒ,apple\n茶,chá,tea\n杯子,bēizi,cup\n钱,qián,money\n飞机,fēijī,airplane\n出租车,chūzūchē,taxi\n电视,diànshì,television\n电脑,\niànnǎo,computer\n电影,diànyǐng,movie\n天气,tiānqì,weather\n猫,māo,cat\n狗,gǒu,dog\n东西,dōngxi,thing\n人,rén,person\n名字,míngzi,name\n书,shū,book\n汉语,hànyǔ,mandarin\nChinese\n字,zì,character\n桌子,zhuōzi,desk\n椅子,yǐzi,chair\n谢谢,xièxie,thank\n不客气,búkèqì,you are welcome\n再见,zàijiàn,good-bye\n请,qǐng,please\n对不起,duìbùqǐ,sorry\n没关系,méiguānxì,It doesn’t matter\n是,shì,be (am, is, are)\n有,yǒu,have\n看,kàn,look\n听,tīng,listen\n说话,shuōhuà,speak\n读,dú,read\n写,xiě,write\n看见,kànjiàn,see\n叫,jiào,call\n来,lái,come\n回,huí,return\n去,qù,go\n吃,c\nī,eat\n喝,hē,drink\n睡觉,shuìjiào,sleep\n打电话,dǎdiànhuà,call up\n做,zuò,do\n买,mǎi,buy\n开,kāi,open\n坐,zuò,sit\n住,zhù,live\n学习,xuéxí,study\n工作,gōngzuò,work\n下雨,xiàyǔ,rain\n爱,ài,love\n喜欢,xǐhuān,love, like\n想,xiǎng,want\n认识,rènshi,know\n会,huì,can\n能,néng,can, be able to\n好,hǎo,good\n大,dà,big\n小,xiǎo,small\n多,duō,many, much\n少,shǎo,few, little\n冷,lěng,cold\n热,rè,hot\n高兴,gāoxìng,happy\n漂亮,piàoliàng,beautiful"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
