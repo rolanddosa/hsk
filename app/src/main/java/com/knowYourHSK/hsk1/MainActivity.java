@@ -23,8 +23,13 @@ public class MainActivity extends AppCompatActivity {
         List words = csvFile.read();
     }
 
-    public void newStudyActivity(View view) {
-        Intent intent = new Intent(this, StudyActivity.class);
+    public void newStudyHSK1Activity(View view) {
+        Intent intent = new Intent(this, StudyHSK1Activity.class);
+        startActivity(intent);
+    }
+
+    public void newStudyRadicalsActivity(View view) {
+        Intent intent = new Intent(this, StudyRadicalsActivity.class);
         startActivity(intent);
     }
 

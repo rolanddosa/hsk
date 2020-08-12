@@ -1,0 +1,4953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/backgr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEE9C"
+            android:orientation="vertical">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+                <!--formula to help with table from excel ="<TableRow>"&" <TextView android:text="&CHAR(34)&A1&CHAR(34)&" android:padding="&CHAR(34)&"3dip"&CHAR(34)&"/>"&" <TextView android:text="&CHAR(34)&B1&CHAR(34)&" android:padding="&CHAR(34)&"3dip"&CHAR(34)&"/>"&" <TextView android:text="&CHAR(34)&C1&CHAR(34)&" android:padding="&CHAR(34)&"3dip"&CHAR(34)&"/>"&" <TextView android:text="&CHAR(34)&D1&CHAR(34)&" android:padding="&CHAR(34)&"3dip"&CHAR(34)&"/>"&" <TextView android:text="&CHAR(34)&E1&CHAR(34)&" android:padding="&CHAR(34)&"3dip"&CHAR(34)&"/>"&"</TableRow>"-->
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="1" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="一" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="one" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="1" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="丨" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="line" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="1" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="丶" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dot" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="diǎn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="1" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="丿" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="slash" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="piě" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="1" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="乙" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="second" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="1" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="亅" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hook" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gōu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="1" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="二" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="two" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="èr" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="亠" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lid" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tóu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="人" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="person" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="rén" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="儿" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="legs" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ér" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="11" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="入" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="enter" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="rù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="12" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="八" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="eight" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bā" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="13" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="冂" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="down box" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jiǒng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="14" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="冖" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cover" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="15" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="冫" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ice" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bīng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="16" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="几" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="table" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jī, jǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="17" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="凵" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="open box" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="qǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="18" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="刀" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="knife" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dāo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="19" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="力" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="power" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="20" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="勹" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wrap" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bāo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="21" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="匕" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ladle" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="22" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="匚" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="right open box" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fāng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="23" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="匸" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hiding enclosure" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="24" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="十" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ten" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shí" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="25" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="卜" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="divination" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="26" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="卩" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="seal" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jié" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="27" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="厂" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cliff" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hàn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="28" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="厶" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="private" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="29" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="又" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="again" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yòu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="30" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="口" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mouth" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="kǒu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="31" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="囗" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="enclosure" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wéi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="32" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="土" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="earth" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="33" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="士" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="scholar" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="34" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="夂" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="go" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="35" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="夊" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="go slowly" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="suī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="36" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="夕" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="night" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="37" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="大" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="big" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dà" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="38" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="女" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="woman" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="nǚ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="39" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="子" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="child" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="40" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="宀" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="roof" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gài" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="41" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="寸" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="inch" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cùn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="42" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="小" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="small" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xiǎo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="43" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="尢" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lame" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yóu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="44" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="尸" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="corpse" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="45" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="屮" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sprout" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chè" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="46" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="山" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mountain" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shān" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="47" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="川" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="river" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chuān" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="48" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="工" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="work" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gōng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="49" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="己" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="oneself" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="50" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="巾" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="towel" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jīn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="51" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="干" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dry" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gān" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="52" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="幺" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="thread" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yāo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="53" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="广" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shelter" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="guǎng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="54" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="廴" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="stride" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yǐn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="55" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="廾" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hands joined" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gǒng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="56" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="弋" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shoot with a bow" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="57" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="弓" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bow" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gōng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="58" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="彐" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="snout" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="59" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="彡" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hair" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shān" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="60" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="彳" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="step" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="61" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="心" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="heart" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xīn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="62" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="戈" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="spear" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gē" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="63" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="户" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="door" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="64" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="手" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hand" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shǒu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="65" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="支" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="branch" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="66" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="攴" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="rap" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="pū" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="67" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="文" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="script" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wén" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="68" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="斗" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dipper" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dǒu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="69" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="斤" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="axe" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jīn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="70" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="方" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="square" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fāng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="71" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="无" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="not" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wú" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="72" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="日" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sun" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="rì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="73" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="曰" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="say" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yuē" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="74" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="月" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="moon" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yuè" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="75" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="木" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tree" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="76" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="欠" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lack" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="qiàn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="77" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="止" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="stop" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="78" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="歹" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="death" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dǎi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="79" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="殳" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="weapon" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shū" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="母" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mother" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="81" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="比" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="compare" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="82" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="毛" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fur" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="máo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="83" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="氏" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="clan" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="84" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="气" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="steam" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="qì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="85" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="水" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="water" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shuǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="86" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="火" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fire" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="huǒ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="87" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="爪" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="claw" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhǎo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="88" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="父" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="father" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="89" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="爻" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lines on a trigram" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yáo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="90" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="爿" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="half of a tree trunk" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="qiáng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="91" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="片" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="slice" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="piàn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="92" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="牙" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tooth" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yá" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="93" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="牛" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cow" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="niú" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="94" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="犭" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dog" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="quǎn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="95" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="玄" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="profound" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xuán" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="96" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="玉" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jade" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="97" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="瓜" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="melon" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="guā" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="98" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="瓦" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tile" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wǎ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="99" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="甘" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sweet" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gān" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="100" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="生" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="life" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shēng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="101" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="用" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="use" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yòng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="102" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="田" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="field" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tián" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="103" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="疋" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cloth" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="pǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="104" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="疒" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ill" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bìng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="105" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="癶" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="foot steps" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bō" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="106" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="白" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="white" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bái" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="107" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="皮" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="skin" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="pí" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="108" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="皿" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dish" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mǐn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="109" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="目" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="eye" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="110" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="矛" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="spear" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="máo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="111" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="矢" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="arrow" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="112" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="石" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="stone" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shí" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="113" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="示" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="spirit" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="114" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="禸" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="track" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="róu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="115" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="禾" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="grain" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hé" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="116" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="穴" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cave" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xuè" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="117" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="立" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="stand" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="118" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="竹" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bamboo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhú" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="119" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="米" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="rice" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="120" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="纟" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="silk" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="121" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="缶" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jar" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fǒu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="122" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="网" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="net" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wǎng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="123" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="羊" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sheep" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yáng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="124" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="羽" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="feather" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="125" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="老" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="old" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lǎo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="126" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="而" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="and" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ér" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="127" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="耒" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="plow" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lěi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="128" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="耳" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ear" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ěr" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="129" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="聿" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="brush" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="130" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="肉" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="meat" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ròu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="131" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="臣" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="minister" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chén" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="132" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="自" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="oneself" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="133" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="至" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="arrive" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="134" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="臼" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mortar" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jiù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="135" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="舌" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tongue" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shé" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="136" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="舛" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="contrary" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chuǎn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="137" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="舟" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="boat" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhōu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="138" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="艮" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mountain" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gèn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="139" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="色" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="color" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sè" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="140" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="艹" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="grass" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cǎo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="141" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="虍" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tiger" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="142" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="虫" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="insect" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chóng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="143" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="血" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="blood" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xuě" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="144" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="行" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="walk" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xíng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="145" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="衣" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="clothes" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="146" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="西" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="west" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="147" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="见" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="see" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jiàn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="148" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="角" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="horn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jiǎo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="149" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="讠" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="speech" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yán" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="150" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="谷" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="valley" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="151" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="豆" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bean" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dòu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="152" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="豕" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="pig" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="153" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="豸" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="badger" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="154" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="贝" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shell" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bèi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="155" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="赤" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="red" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="156" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="走" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="walk" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zǒu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="157" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="足" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="foot" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zú" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="158" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="身" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="body" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shēn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="159" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="车" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cart" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chē" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="160" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="辛" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bitter" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xīn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="161" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="辰" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="morning" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chén" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="162" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="辶" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="walk" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chuò" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="163" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="邑" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="city" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="164" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="酉" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wine" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yǒu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="165" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="釆" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="distinguish" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="biàn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="166" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="里" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="village" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="167" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="钅" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="metal" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jīn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="168" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="长" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="long" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cháng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="169" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="门" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gate" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mén" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="170" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="阜" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mound" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="171" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="隶" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="slave" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="172" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="隹" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="short-tailed bird" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhuī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="173" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="雨" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="rain" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="174" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="青" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="blue" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="qīng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="175" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="非" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wrong" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fēi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="176" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="面" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="face" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="miàn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="177" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="革" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="leather" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gé" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="178" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="韦" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="soft leather" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wěi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="179" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="韭" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="leek" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="jiǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="180" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="音" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sound" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yīn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="181" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="页" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="page" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yè" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="182" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="风" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wind" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fēng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="183" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="飞" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fly" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fēi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="184" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="饣" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="eat" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shí" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="185" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="首" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="head" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shǒu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="186" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="香" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fragrant" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="xiāng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="187" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="马" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="horse" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mǎ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="188" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="骨" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bone" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="189" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="高" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="high" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gāo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="190" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="髟" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="long hair" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="biāo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="191" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鬥" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fight" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dòu" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="192" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鬯" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="sacrificial wine" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chàng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="193" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鬲" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="cauldron" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lì" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="194" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鬼" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="ghost" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="guǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="9" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="195" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鱼" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="fish" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yú" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="196" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鸟" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bird" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="niǎo" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="197" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="卤" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="salty" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="198" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鹿" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="deer" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lù" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="11" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="199" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="麦" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="wheat" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mài" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="200" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="麻" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hemp" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="má" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="11" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="201" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="黄" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yellow" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="huáng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="11" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="202" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="黍" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="millet" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="12" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="203" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="黑" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="hēi" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="12" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="204" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="黹" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="embroidery" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="zhǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="12" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="205" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="黾" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="frog" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="mǐn" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="206" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鼎" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tripod" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dǐng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="12" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="207" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鼓" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="drum" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="gǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="13" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="208" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鼠" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="rat" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="shǔ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="13" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="209" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="鼻" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="nose" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="bí" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="14" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="210" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="齐" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="even" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="qí" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="211" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="齿" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="tooth" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="chǐ" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="212" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="龙" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="dragon" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="lóng" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="5" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="213" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="龟" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="turtle" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="guī" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="7" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="214" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="龠" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="flute" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="yuè" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="17" />
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -134,11 +134,26 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="#FF2E1F"
-        android:onClick="newStudyActivity"
-        android:text="学习"
+        android:onClick="newStudyHSK1Activity"
+        android:text="学习HSK1"
         android:textColor="#FFED43"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/study_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#FF2E1F"
+        android:onClick="newStudyRadicalsActivity"
+        android:text="学习Radicals"
+        android:textColor="#FFED43"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

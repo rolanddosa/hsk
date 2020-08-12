@@ -14,7 +14,8 @@
         <activity android:name=".hsk1.BabyActivity" />
         <activity android:name=".hsk1.StudentActivity" />
         <activity android:name=".hsk1.TeacherActivity" />
-        <activity android:name=".hsk1.StudyActivity" />
+        <activity android:name=".hsk1.StudyHSK1Activity" />
+        <activity android:name=".hsk1.StudyRadicalsActivity" />
         <activity android:name=".hsk1.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
