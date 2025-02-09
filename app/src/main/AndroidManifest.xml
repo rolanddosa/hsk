@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <!--package="com.knowYourHSK"-->
 
     <application
         android:allowBackup="true"
@@ -11,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode">
-        <activity android:name=".hsk1.BabyActivity" />
-        <activity android:name=".hsk1.StudentActivity" />
-        <activity android:name=".hsk1.TeacherActivity" />
-        <activity android:name=".hsk1.StudyHSK1Activity" />
-        <activity android:name=".hsk1.StudyRadicalsActivity" />
-        <activity android:name=".hsk1.MainActivity"
+        <activity android:name="com.knowYourHSK.hsk1.BabyActivity" />
+        <activity android:name="com.knowYourHSK.hsk1.StudentActivity" />
+        <activity android:name="com.knowYourHSK.hsk1.TeacherActivity" />
+        <activity android:name="com.knowYourHSK.hsk1.StudyHSK1Activity" />
+        <activity android:name="com.knowYourHSK.hsk1.StudyRadicalsActivity" />
+        <activity android:name="com.knowYourHSK.hsk1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
