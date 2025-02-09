@@ -7,10 +7,11 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.knowYourHSK.R;
 
 import java.util.List;
 import java.util.Random;
+
+import hsk.R;
 
 public class BabyActivity extends AppCompatActivity {
 

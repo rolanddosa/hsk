@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.knowYourHSK.R;
-
 import java.util.List;
 import java.util.Random;
+
+import hsk.R;
 
 public class TeacherActivity extends AppCompatActivity {
 

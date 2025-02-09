@@ -2,12 +2,13 @@ package com.knowYourHSK.hsk1;
 
 import android.content.Context;
 
-import com.knowYourHSK.R;
 
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import hsk.R;
 
 public class WordsGenerator {
     private Context context;

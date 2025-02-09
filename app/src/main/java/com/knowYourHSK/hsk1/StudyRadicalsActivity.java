@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.knowYourHSK.R;
+import hsk.R;
 
 public class StudyRadicalsActivity extends AppCompatActivity {
 

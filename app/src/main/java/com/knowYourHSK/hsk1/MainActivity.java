@@ -1,16 +1,17 @@
 package com.knowYourHSK.hsk1;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.knowYourHSK.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.InputStream;
 import java.io.Serializable;
 import java.util.List;
+
+import hsk.R;
 
 public class MainActivity extends AppCompatActivity {
 
